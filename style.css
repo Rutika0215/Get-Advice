@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url('flowerimage');
+   background-repeat: no-repeat;
+   background-size: cover;
+    text-align: center;
+}
+.container h1{
+    padding-top: 2rem;
+    /* color:#694F8E; */
+    color:deeppink;
+    font-family:Lucida Handwriting;
+}
+.button-design{
+    height: 4rem;
+    width: 13rem;
+    padding: 0.8rem;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: deeppink;
+    color: white ;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.button-design:hover{
+    background-color:hotpink;
+    transform: scale(1.2);
+}
+.box{
+    margin: 4% auto;
+    background-color:hotpink;
+    width: 60%;
+    height: 40vh;
+    padding: 8rem;
+    color: white;
+    border-radius: 2rem;
+   
+}
+#advice-container:hover, #advice-count:hover{
+    transform: scale(1.1);
+    
+}
+#advice-count{
+    padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
